@@ -2,6 +2,10 @@ name: Build
 
 on: [push, pull_request]
 
+env:
+  # Don't build any python 2.7 wheels
+  CIBW_SKIP: cp27-*
+
 # Use bash by default for the run command
 defaults:
   run:
