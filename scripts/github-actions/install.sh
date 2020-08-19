@@ -10,7 +10,7 @@ if [[ $RUNNER_OS == "Windows" ]]; then
   # Run swig -python example.i
   # (1) : Error: Unable to find 'swig.swg'
   # (3) : Error: Unable to find 'python.swg'
-  # ## [error]Process completed with exit code 1.
+  # [error]Process completed with exit code 1.
   # ```
   choco install -y swig --version=4.0.1
 elif [[ $RUNNER_OS == "macOS" ]]; then
