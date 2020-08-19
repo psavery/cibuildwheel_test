@@ -1,0 +1,3 @@
+*.so
+example.py
+*_wrap.c
