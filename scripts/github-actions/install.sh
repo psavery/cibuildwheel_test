@@ -8,5 +8,5 @@ if [[ $RUNNER_OS == "Windows" ]]; then
 elif [[ $RUNNER_OS == "macOS" ]]; then
   brew install swig
 elif [[ $RUNNER_OS == "Linux" ]]; then
-  apt-get install -y swig
+  sudo apt-get install -y swig
 fi
